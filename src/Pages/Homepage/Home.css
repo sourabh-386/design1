@@ -1,0 +1,31 @@
+.home{
+    width: 85%;
+    margin: auto;
+}
+.itemlist{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px dashed pink;
+}
+.itemlist img{
+width: 200px;
+transition: all .4s ease;
+cursor: pointer;
+
+}
+.itemlist img:hover{
+    transform: translate3D(0,-1px,0) scale(1.04);
+    transition: all .4s ease;
+    cursor: pointer;
+}
+.card_caint{
+    border-top: 3px dashed pink;
+    display: flex;
+    padding-top: 20px;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+   
+}

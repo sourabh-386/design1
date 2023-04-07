@@ -1,0 +1,28 @@
+.navbar{
+    /* border: 1px solid; */
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+.nav_option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nav_option a{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+.nav_option a img{
+    margin-right:20px ;
+    margin-left: 40px;
+}

@@ -1,0 +1,38 @@
+.item1 {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+
+}
+
+.item_name {
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 80px;
+    line-height: 100px;
+}
+
+.items {
+    border-top: 3px dashed pink;
+
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.items img {
+    width: 200px;
+    margin: 25px;
+    margin-bottom: 60px;
+    transition: all .4s ease;
+
+}
+.item1 img:hover{
+    transform: translate3D(0,-1px,0) scale(1.04);
+    transition: all .4s ease;
+    cursor: pointer;
+}
