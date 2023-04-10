@@ -57,7 +57,7 @@ const Home = () => {
       {/* <br /> */}
       <center><h2>hot deals for you</h2></center>
       <Item1 />
-      <img src={rectangle1} alt="img" style={{ width: '100%', height: '400px' }} />
+      <img src={rectangle1}  className='big_img' alt="img"  />
       <br />
       <br />
       <br />
@@ -90,7 +90,7 @@ const Home = () => {
       <br />
       <br />
 
-      <img src={rectangle2} alt="img" style={{ width: '100%', height: '400px' }} />
+      <img src={rectangle2} className='big_img' alt="img"  />
       <br />
       <br />
       <br />

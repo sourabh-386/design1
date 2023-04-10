@@ -7,11 +7,14 @@
     display: flex;
     justify-content: space-between;
     border-top: 3px dashed pink;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .itemlist img{
 width: 200px;
 transition: all .4s ease;
 cursor: pointer;
+margin: 20px;
 
 }
 .itemlist img:hover{
@@ -25,7 +28,30 @@ cursor: pointer;
     padding-top: 20px;
 
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 100px;
    
+}
+.big_img{
+    width: 100%;
+    height: 400px  
+}
+@media only screen and (max-width:720px) {
+    .itemlist img{
+        width: 150px;
+    }
+    .big_img{
+        height: 300px;
+    }
+}
+@media only screen and (max-width:550px) {
+    .itemlist img{
+        width: 120px;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width:550px) {
+    .big_img{
+        height: 210px;
+    }
 }

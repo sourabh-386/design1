@@ -10,7 +10,7 @@ const Card = ({cardimg,star,name,para,prise}) => {
             <p>{para}</p>
             <h2>Rs {prise}</h2>
            
-            <img src={star} alt="imgS" />
+            <img src={star} alt="imgS" className='rating'/>
         </div>
         
     </div>

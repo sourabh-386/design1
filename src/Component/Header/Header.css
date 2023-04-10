@@ -63,12 +63,15 @@
 font-size: 16px;
 line-height: 24px;
 /* identical to box height */
+flex-wrap: wrap;
+justify-content: space-evenly;
 
 
 color: #606060;
 }
 .name p{
     transition: all .4s ease;
+    margin: 10px;
 
 }
 .name p:hover{
@@ -76,4 +79,21 @@ color: #606060;
     transition: all .4s ease;
     cursor: pointer;
 
+}
+@media only screen and (max-width:720px) {
+    .search {
+        width: 50%;
+    }
+    
+}
+@media only screen and (max-width:550px) {
+.search_btn{
+    /* justify-content: ; */
+    align-items: center;
+    height: 130px;
+    flex-direction: column-reverse;
+}
+.search {
+    width: 100%;
+}
 }
